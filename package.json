@@ -1,0 +1,19 @@
+{
+  "name": "@jstraney/logger",
+  "version": "1.0.0",
+  "description": "My own wrapper for winston supporting multiple transports and file rotation",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "moment": "^2.29.1",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
